@@ -1,10 +1,14 @@
 add the same FQDN in the /etc/hosts file, associating it with the loopback address:
 
+```
 127.0.0.1 localhost jitmeet.example.org
+```
+
 Finally on the same machine test that you can ping the FQDN with: ping "$(hostname)"-
 
+```
 sudo apt-get install git
-
+```
 
 # Install lua and dependencies
 
