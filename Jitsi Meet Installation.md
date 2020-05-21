@@ -17,6 +17,16 @@ Enter in sudo user
 ```bash
 sudo su
 ```
+```bash
+nano /etc/systemd/system.conf
+ADD:->
+	DefaultLimitNOFILE=65000
+	DefaultLimitNPROC=65000
+	DefaultTasksMax=65000
+```
+```bash
+systemctl daemon-reload
+```
 
 Run the follow script to install lua and her dependencies, and prosody with fixes.
 After finish, VM will be restarted
