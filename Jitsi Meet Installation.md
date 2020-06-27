@@ -159,6 +159,7 @@ VirtualHost "jitmeet.example.com"
     authentication = "token";
     app_id = "example_app_id";             -- application identifier
     app_secret = "example_app_secret";     -- application secret known only to your token
+    allow_empty_token = false;
 ```
 
 ### To access the data in lib-jitsi-meet you have to enable the prosody module mod_presence_identity in your config.
