@@ -264,7 +264,9 @@ JVB logs
 tail -f -n 350 /var/log/jitsi/jvb.log
 ```
 
+# Etherpad
 
+https://www.rosehosting.com/blog/how-to-install-etherpad-on-ubuntu-18-04/
 
 # Manual react-jitsi-meet
 
